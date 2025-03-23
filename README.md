@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# My Personal Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal webpage created as part of a Practicum of Attack and Defense of Network Security (網路攻防實習) course assignment. The page showcases basic information about me and includes interactive elements.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Visit the live website at: [https://jojoaxolotl.github.io/my-personal-page/](https://jojoaxolotl.github.io/my-personal-page/)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Personal introduction and profile picture
+- Visitor counter
+- Interactive message board
+- Responsive design
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React.js
+- JavaScript (ES6+)
+- CSS3
+- GitHub Pages for deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Structure
 
-### `npm run build`
+```
+my-personal-page/
+├── public/             # Static files
+├── src/                # Source files
+│   ├── App.js          # Main component
+│   ├── App.css         # Styles
+│   ├── index.js        # Entry point
+│   └── me.jpg          # Profile picture
+└── package.json        # Dependencies and scripts
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Setup and Development
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js (v14 or higher)
+- npm (v6 or higher)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   ```
+   git clone https://github.com/jojoAxolotl/my-personal-page.git
+   cd my-personal-page
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Start the development server:
+   ```
+   npm start
+   ```
+   This will run the app in development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployment
 
-## Learn More
+The site is deployed using GitHub Pages. To deploy new changes:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm run deploy
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+This script builds the app for production and pushes it to the `gh-pages` branch of your repository.
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Name: Joko (張紋慈)
+- Student ID: R12921A11
 
-### Analyzing the Bundle Size
+## Assignment Context
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project was created as an assignment for the Practicum of Attack and Defense of Network Security (網路攻防實習) course. The purpose was to create a personal webpage and deploy it using GitHub Pages.
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is for educational purposes only.
